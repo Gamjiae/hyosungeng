@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="w-screen h-[100px] flex px-[100px] justify-evenly items-center bg-white text-black">
+    <header className="w-screen h-[100px] flex px-[50px] justify-evenly items-center bg-white text-black">
       <Link href="/" className="text-xl">
         효성 ENG
       </Link>
