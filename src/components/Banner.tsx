@@ -5,7 +5,7 @@ import SwiperCore from "swiper";
 import Image from "next/image";
 
 export default function Banner() {
-  SwiperCore.use([Navigation, Scrollbar, Autoplay]);
+  SwiperCore.use([Navigation, Autoplay]);
 
   return (
     <Swiper
