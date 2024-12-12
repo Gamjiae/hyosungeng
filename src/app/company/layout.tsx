@@ -1,5 +1,5 @@
 import CompanyTop from "@/components/CompanyTop";
-import Header from "@/components/Header";
+
 export default function NoticesLayout({
   children,
 }: {

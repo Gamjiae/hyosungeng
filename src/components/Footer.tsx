@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-screen h-[150px] text-xs text-neutral-400 bg-zinc-900">
+    <footer className="w-screen h-auto text-xs text-neutral-400 mt-10">
       <nav className="w-full flex space-x-4 px-[150px] py-[20px] bg-zinc-800">
         <Link href="/">처음으로</Link>
         <Link href="/">회사소개</Link>

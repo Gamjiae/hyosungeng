@@ -22,7 +22,7 @@ export default function CompanyTop() {
                     alt="배너이미지1"
                 />
             </div>
-            <div className="relative flex left-1/2 transform -translate-x-1/2 bg-neutral-50 w-[calc(100%-360px)] h-[60px] z-20 top-[-25px]">
+            <div className="relative flex left-1/2 transform -translate-x-1/2 bg-neutral-50 w-[calc(100%-360px)] h-[60px] z-20 top-[-25px] text-black">
                 <Link
                     className="flex justify-center items-center w-1/2 h-full border-[1px] border-zinc-300" 
                     href='/'

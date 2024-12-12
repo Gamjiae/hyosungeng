@@ -1,17 +1,12 @@
 import Image from "next/image"
+import ContextHeader from "@/components/ContextHeader"
 
 export default function Company() {
   return (
     <section className="relative px-[150px]">
-      <div className="flex w-full justify-between border-b-[1px] pb-5 mb-5 mt-3 border-neutral-200">
-        <div className="flex items-end">
-          <div className="text-3xl font-bold mr-6">회사소개</div>
-          <div className="text-neutral-500">The relenfless pursuit of perfection</div>
-        </div>
-        <div className="font-semibold text-2xl">제품상담 : 010-9210-6187</div>
-      </div>
+      <ContextHeader text="회사소개"/>
 
-      <div className="flex justify-between mt-14 mb-10 text-sm text-neutral-700 leading-7">
+      <div className="flex justify-between mt-14 text-sm text-neutral-700 leading-7">
         <div>
           <p className="text-2xl font-semibold">
             안녕하십니까?<br/>
@@ -26,7 +21,7 @@ export default function Company() {
           </p>
         </div>
 
-        <div className="">
+        <div>
           <div className="relative border-[1px] border-neutral-200 rounded w-[360px] h-[210px] p-1">
             <div className="relative border-[1px] w-[350px] h-[200px] ">
               <Image 
