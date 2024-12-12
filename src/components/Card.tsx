@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import '../styles/grid.css'
+import Link from "next/link";
+import Image from "next/image";
+import "../styles/grid.css";
 
 export default function Card() {
   return (
@@ -62,5 +62,5 @@ export default function Card() {
         <div className="" />
       </div>
     </div>
-  )
+  );
 }

@@ -1,5 +1,5 @@
-import NavLink from '@/components/NavLink'
-import Link from 'next/link'
+import NavLink from "@/components/NavLink";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -14,5 +14,5 @@ export default function Header() {
       <NavLink href="/notices">공지사항</NavLink>
       <NavLink href="/quotation-request">견적문의</NavLink>
     </header>
-  )
+  );
 }

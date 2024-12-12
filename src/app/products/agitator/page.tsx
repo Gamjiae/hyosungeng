@@ -1,3 +1,3 @@
 export default function Agitator() {
-  return <div />
+  return <div />;
 }

@@ -1,3 +1,3 @@
 export default function Pump() {
-  return <div />
+  return <div />;
 }

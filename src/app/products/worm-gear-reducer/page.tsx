@@ -1,3 +1,3 @@
 export default function WormGearReducer() {
-  return <div />
+  return <div />;
 }

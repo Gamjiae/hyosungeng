@@ -1,3 +1,3 @@
 export default function DeliveryInventory() {
-  return <div />
+  return <div />;
 }

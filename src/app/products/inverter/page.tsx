@@ -1,3 +1,3 @@
 export default function Inverter() {
-  return <div />
+  return <div />;
 }

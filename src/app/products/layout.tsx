@@ -1,9 +1,7 @@
-import Header from '@/components/Header'
-
 export default function NoticesLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return <>{children}</>
+  return <>{children}</>;
 }

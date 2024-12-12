@@ -1,3 +1,3 @@
 export default function Items() {
-  return <div />
+  return <div />;
 }

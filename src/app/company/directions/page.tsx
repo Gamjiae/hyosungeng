@@ -1,3 +1,3 @@
 export default function Directions() {
-  return <div />
+  return <div />;
 }

@@ -1,3 +1,3 @@
 export default function RingBlower() {
-  return <div />
+  return <div />;
 }

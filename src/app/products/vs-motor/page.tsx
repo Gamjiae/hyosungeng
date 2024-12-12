@@ -1,3 +1,3 @@
 export default function VSMotor() {
-  return <div />
+  return <div />;
 }

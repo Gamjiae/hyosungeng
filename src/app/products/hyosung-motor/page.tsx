@@ -1,3 +1,3 @@
 export default function HyosungMotor() {
-  return <div />
+  return <div />;
 }
