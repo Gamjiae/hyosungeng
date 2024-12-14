@@ -11,8 +11,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className="bg-white">
-        <div className="min-h-[calc(100vh - 200px)] text-black">
+      <body className="bg-white text-black">
+        <div className="min-h-[calc(100vh - 200px)]">
           <Header />
           <main>{children}</main>
         </div>

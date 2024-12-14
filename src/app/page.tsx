@@ -3,7 +3,7 @@ import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-screen relative z-10">
       <Banner />
       <Card />
     </div>

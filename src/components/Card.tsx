@@ -4,7 +4,7 @@ import "../styles/grid.css";
 
 export default function Card() {
   return (
-    <div className="xl:px-[200px] sm:px-[20px] min-[320px]:px-[10px] main-parent flex justify-evenly text-sm text-black">
+    <div className="main-parent px-[200px] sm:px-[20px] min-[320px]:px-[10px] flex flex-col sm:space-y-5 text-sm text-black">
       <div className="card1 relative w-full h-[250px] border-[1px] border-neutral-200 bg-neutral-50 p-[30px] text-sm">
         <p className="text-lg mb-[10px]">회사소개</p>
         <p>
