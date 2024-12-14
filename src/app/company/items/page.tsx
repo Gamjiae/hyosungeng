@@ -3,7 +3,7 @@ import ItemBox from "@/components/ItemBox";
 
 export default function Items() {
   return (
-    <section className="relative px-[150px] mb-[100px]">
+    <section className="relative px-[150px] sm:px-[15px] mb-[100px]">
       <ContextHeader text="취급품목"/>
 
       <div className="mt-14 mb-10 text-sm text-neutral-700 leading-7">

@@ -11,7 +11,7 @@ export default function CompanyTop() {
     return (
         <div>
             <div className="relative w-full h-[300px]">
-                <div className="absolute flex flex-col items-center justify-center w-full h-[300px] z-50 text-white">
+                <div className="absolute flex flex-col items-center justify-center w-full h-[300px] z-50 text-white text-center px-[15px]">
                     <div className="text-3xl mb-3">The relenfless pursuit of perfection</div>
                     <div>모터, 감속기, 펌프, 전동워치, 기어박스 등 각종 동력전달 제공</div>
                 </div>
@@ -22,16 +22,16 @@ export default function CompanyTop() {
                     alt="배너이미지1"
                 />
             </div>
-            <div className="relative flex left-1/2 transform -translate-x-1/2 bg-neutral-50 w-[calc(100%-360px)] h-[60px] z-20 top-[-25px] text-black">
+            <div className="relative flex left-1/2 transform -translate-x-1/2 bg-neutral-50 w-[70vw] sm:w-full h-[60px] z-20 top-[-25px] text-black">
                 <Link
-                    className="flex justify-center items-center w-1/2 h-full border-[1px] border-zinc-300" 
+                    className="flex justify-center items-center w-[60vw] h-full border-[1px] border-zinc-300" 
                     href='/'
                 >
                     처음으로
                 </Link>
 
                 <div 
-                    className="flex justify-center items-center w-1/2 h-full border-[1px] border-zinc-300 cursor-pointer"
+                    className="flex justify-center items-center w-[60vw] h-full border-[1px] border-zinc-300 cursor-pointer"
                     onMouseEnter={() => setIsOpen(true)}
                     onMouseLeave={() => setIsOpen(false)}
                 >

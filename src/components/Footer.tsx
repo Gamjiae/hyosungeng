@@ -29,15 +29,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex items-center space-x-1">
+        <div className="sm:hidden flex items-center space-x-1">
           <Image 
             src="/images/logo.png" 
             width={25} 
             height={25} 
             alt="로고" 
-            className="sm:hidden"
           />
-          <span className="sm:hidden text-lg">효성 ENG</span>
+          <span className="text-lg font-bold text-white">효성 ENG</span>
         </div>
       </div>
     </footer>
