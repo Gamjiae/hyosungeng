@@ -8,7 +8,7 @@ export default function NoticesLayout({
   return (
     <div>
       <CompanyTop />
-      <div>{children}</div>
+      <div className="mb-14">{children}</div>
     </div>  
   )
 }
